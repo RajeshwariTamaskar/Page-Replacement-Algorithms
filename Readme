@@ -1,0 +1,41 @@
+-------------
+ Introduction
+--------------
+
+-Page replacement algorithm implementation
+
+-Can handle 4 replacement algorithms[FIFO, LRU, Optimal & NFU]
+
+-User can also choose all algorithm for implementing all algorithms
+
+--------------
+   Input
+--------------
+Choose the replacement algorithm that you want to simulate:
+ 1.FIFO
+ 2.LRU
+ 3.Optimal
+ 4.NFU
+ 5.All Algorithms
+[Choose Option number]
+Enter number of pages in logical memory:
+[if 4 is entered it represents pages 0, 1, 2, 3]
+Enter number of frames in physical memory:
+[Nuber of slots in physical memory frame]
+Enter the page-reference string:
+[String of pages ending with -1]
+
+------------------
+  How to use
+------------------
+- For using MakeFile, 
+	> Execute make in the terminal to create executable file
+	> To delete executable file use clean
+- Input as shown above
+ 
+-------------
+  Design
+-------------
+-Has been explained in the report along with test outputs
+
+
